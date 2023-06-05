@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <!--CSS-->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+
+<body>
+  <main>
+    <!--Main Container-->
+    <div class="flex justify-center h-screen items-center bg-PaleBlue ">
+      <!--Card-->
+      <div class="bg-white rounded-2xl ">
+        <!--Flex Container-->
+        <div class="flex flex-col md:flex-row ">
+          <!--Results Dashboard-->
+          <div
+            class="font-Hanken flex flex-col justify-center items-center rounded-b-3xl bg-gradient-to-r from-Lightroyalblue_Bckgrnd to-Lightslateblue_Bckgrnd md:px-4 md:rounded-3xl">
+            <h1 class="font-bold text-sm tracking-wider pt-8 text-center  text-LightLavender md:text-2xl md:p-8 ">Your Result</h1>
+            <div
+              class=" flex flex-col items-center justify-center my-4 text-LightLavender w-36 h-36  bg-gradient-to-r from--Violetblue_Circle to rounded-full md:w-52 md:h-52 ">
+              <h1 class=" text-center tracking-wide font-extrabold text-5xl text-white md:font-bold md:text-8xl ">76</h1>
+              <h1 class="font-bold tracking-widest text-sm md:text-lg">of 100</h1>
+            </div>
+            <h1 class="font-medium my-3 text-2xl text-white text-center md:text-3xl md:px-2 md:my-2">Great</h1>
+            <p class="font-medium text-sm  tracking-wide px-4 mb-6  text-center text-LightLavender md:text-lg md:my-5">
+              Your performance exceed 65% of the people conducting the test here!</p>
+          </div>
+          <!--Content -->
+          <div class="flex flex-col p-8 w-full gap-y-6 md:p-8 md:max-w-md">
+            <h1 class="font-bold tracking-widest text-DarkgrayBlue font-Hanken md:text-2xl ">
+              Summary
+            </h1>
+            <!--Colored Card1-->
+            <div href class="bg-red-50 flex justify-between rounded-lg px-3 py-4 ">
+              <div class="text-red-500 space-x-3 flex">
+                <img src="./assets/images/icon-reaction.svg" alt="reaction icon" />
+                <p>Reaction</p>
+              </div>
+              <div class="flex justify-self-end tracking-wide">
+                <p class="font-medium">80 <span class="text-DarkgrayBlue  font-light "> / 100</span></p>
+              </div>
+            </div>
+            <!--Color Card 2-->
+            <div href class="bg-yellow-50 flex  justify-between rounded-lg px-3 py-3 ">
+              <div class="text-yellow-500 space-x-3 flex">
+                <img src="./assets/images/icon-memory.svg" alt="memory icon" />
+                <p>Memory</p>
+              </div>
+              <div class="flex justify-self-end tracking-wide">
+                <p class="font-medium">92 <span class="text-DarkgrayBlue  font-light "> / 100</span></p>
+              </div>
+            </div>
+            <!--Color card 3-->
+            <div href class="bg-green-50  flex justify-between rounded-lg px-3 py-4 ">
+              <div class="text-green-500 space-x-3 flex">
+                <img src="./assets/images/icon-verbal.svg" alt="reaction icon" />
+                <p>Verbal</p>
+              </div>
+              <div class="flex justify-self-end tracking-wide">
+                <p class="font-medium">61 <span class="text-DarkgrayBlue  font-light "> / 100</span></p>
+              </div>
+            </div>
+            <!--Color Card 4-->
+            <div href class="bg-blue-50  flex justify-between rounded-lg px-3 py-4 ">
+              <div class="text-blue-700 space-x-3 flex">
+                <img src="./assets/images/icon-visual.svg" alt="reaction icon" />
+                <p>Visual</p>
+              </div>
+              <div class="flex justify-self-end tracking-wide">
+                <p class="font-medium">73 <span class="text-DarkgrayBlue  font-light "> / 100</span></p>
+              </div>
+            </div>
+            <!--Button-->
+            <button
+              class="p-4 text-center font-medium tracking-wider text-lg text-white bg-DarkgrayBlue transition hover:bg-gradient-to-r from-Lightroyalblue_Bckgrnd to-Lightslateblue_Bckgrnd  duration-200 rounded-full">Continue</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </main>
+  <footer class="bg-cream text-xs text-center">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" class="text-blue-500" target="_blank">Frontend Mentor</a>.
+    Coded
+    by
+    <a href="https://github.com/Kofiastro/" class="text-blue-500" target="_blank">Kofi Danso Amakye </a>.
+  </footer>
+</body>
+
+
+</html>
