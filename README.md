@@ -22,8 +22,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [()]
-- Live Site URL:[()]
+- Solution URL: [(https://github.com/Kofiastro/results-Components-Project)]
+- Live Site URL:[(https://vermillion-stardust-00e266.netlify.app/)]
 
 ## My process
 Using Tailwindcss i have been able to work on designs much faster and i want to learn more by working on more projects at frontendmentor to help me be good at it.
